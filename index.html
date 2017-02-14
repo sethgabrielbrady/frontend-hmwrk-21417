@@ -26,32 +26,63 @@
             <input type='text' name='email' id ='email-input'>
           <aside>
           <aside>
-            Side:
-            <label><input type ='radio' name='side' value='light'>
-            </label>
-              Light
-            <label><input type ='radio' name='side' value='dark'>
-            </label>
-            Dark
+            <label>
+              Side:
+              <label><input type ='radio' name='side' value='light'>
+              </label>
+                Light
+              <label><input type ='radio' name='side' value='dark'>
+              </label>
+                 Dark
           <aside>
           <aside>
             <label for='origins-txt'>Origins Story</label>
-            <input type='textarea' name='orgins' id ='origins-input'>
-          <aside>
+            <textarea name="origins-txt" rows="10" cols="50">Write something here
+            </textarea>
+            <aside>
      </fieldset>
 
      <fieldset>
              <legend>Abilites</legend>
-             <label for='profile-upld-btn'>Lightsaber Color</label>
+             <label for='sbr-clr'>Lightsaber Color</label>
+              <select name="sbr-clr">
+              <option value="select">Select Color</option>
+              <option value="green" selected>Green</option>
+              <option value="blue">Blue</option>
+              <option value="red">Red</option>
+              <option value="red">Purple</option>
+            </select>
            <aside>
            <aside>
-             <label for='email-input'>How many objects can you levitate at once?</label>
+             <label for='levitate'>How many objects can you levitate at once?</label>
+             <input type='number' name='number-obj' min="1" id ='number-input'>
            <aside>
            <aside>
-             <label for='profile-upld-btn'>Favorite ability</label>
+             <label for='fav-ability'>Favorite ability</label>
+             <input type='text' name='fav-ability' id ='ffav-ability'placeholder="precognition">
            <aside>
            <aside>
-             <label for='origins-txt'>Favorite ability</label>
+
+                  Pilot Ability
+                  <label><input type ='checkbox' name='pilot' value='speeder'>
+                  </label>
+                    Speeder
+                  <label><input type ='checkbox' name='pilot' value='transport'>
+                  </label>
+                    Transport
+                    <label><input type ='checkbox' name='pilot' value='xwing'>
+                    </label>
+                      X-Wing
+                    <label><input type ='checkbox' name='pilot' value='tiefighter'>
+                    </label>
+                      Tie Fighter
+                      <label><input type ='checkbox' name='pilot' value='starship'>
+                      </label>
+                        Starship
+                      <label><input type ='checkbox' name='pilot' value='bantha'>
+                      </label>
+                        Bantha
+             </label>
            <aside>
 
       </fieldset>
