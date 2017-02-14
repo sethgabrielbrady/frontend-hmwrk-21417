@@ -5,9 +5,14 @@ body {
 }
 
 
-user-signup fieldset{
+form fieldset{
   margin-top:15px;
   width:30%;
   display:inline;
   vertical-align: top;
+}
+
+form label {
+  display:block;
+
 }
