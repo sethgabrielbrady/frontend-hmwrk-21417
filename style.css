@@ -16,3 +16,16 @@ form label {
   display:block;
 
 }
+
+
+button {
+  float:left;
+  background-color: lightblue;
+  border-radius: 5px;
+  padding:2px;
+}
+
+
+.check-rad {
+  display: inline;
+}
