@@ -1,0 +1,13 @@
+
+body {
+  width:1366px;
+  margin:auto;
+}
+
+
+user-signup fieldset{
+  margin-top:15px;
+  width:30%;
+  display:inline;
+  vertical-align: top;
+}
