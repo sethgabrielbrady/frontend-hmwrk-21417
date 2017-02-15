@@ -4,11 +4,81 @@ body {
   margin:auto;
 }
 
-
+form {
+  width:95%;
+  margin-left:20px;
+}
 form fieldset{
   margin-top:15px;
   width:30%;
   display:inline;
+  vertical-align: top;
+}
+
+form label {
+  display:block;
+}
+
+button {
+  float:left;
+  background-color: rgb(155, 200, 238);
+  border-radius: 5px;
+  padding:2px;
+}
+
+aside {
+  margin-top:15px;
+}
+ aside .check-rad {
+  display: inline-block;
+  padding-right:10px;
+}
+
+aside h4 {
+  margin:0;
+}
+
+textarea {
+  width:100%;
+  padding:0;
+}
+
+textarea:focus{
+  outline: none;
+  border:1px solid rgb(155, 200, 238);
+  box-shadow: 0 0 10px rgb(155, 200, 238);
+}
+
+input {
+  padding:0;
+  width:100%;
+}
+
+input:focus {
+   outline: none;
+   border:1px solid rgb(155, 200, 238);
+   box-shadow: 0 0 10px rgb(155, 200, 238);
+}
+
+
+
+
+
+
+
+
+/*body {
+  width:1366px;
+  margin:auto;
+}
+
+form {
+  display:inline;
+}
+form fieldset{
+  margin-top:15px;
+  width:30%;
+  display:inline-block;
   vertical-align: top;
 }
 
@@ -20,7 +90,7 @@ form label {
 
 button {
   float:left;
-  background-color: lightblue;
+  background-color: rgb(155, 200, 238);
   border-radius: 5px;
   padding:2px;
 }
@@ -36,3 +106,14 @@ aside {
 aside h4 {
   margin:0;
 }
+
+
+textarea {
+  padding:0;
+}
+
+input {
+  padding:0;
+
+}
+*/
