@@ -1,7 +1,7 @@
 
 body {
-  width:1366px;
-  margin:auto;
+
+  margin:0;
 }
 
 form {
@@ -19,19 +19,20 @@ form label {
   display:block;
 }
 
-button {
-  float:left;
-  background-color: rgb(155, 200, 238);
-  border-radius: 5px;
-  padding:2px;
-}
+
 
 aside {
   margin-top:15px;
 }
  aside .check-rad {
   display: inline-block;
-  padding-right:10px;
+  font-size:1.25em;
+
+}
+
+.check-rad input {
+  width:auto;
+  padding-right:1em;
 }
 
 aside h4 {
@@ -41,11 +42,11 @@ aside h4 {
 textarea {
   width:100%;
   padding:0;
+  border:1px solid rgb(00, 00, 00);
 }
 
 textarea:focus{
   outline: none;
-  border:1px solid rgb(155, 200, 238);
   box-shadow: 0 0 10px rgb(155, 200, 238);
 }
 textarea:invalid{
@@ -53,14 +54,28 @@ textarea:invalid{
 
 }
 textarea:valid{
-  background-color: rgb(221, 255, 221);
+  /*background-color: rgb(221, 255, 221);*/
+  background-color: white;
+
 
 }
-input {
+select {
   padding:0;
+  border:1px solid rgb(00, 00, 00);
+}
+input {
+  border:1px solid rgb(00, 00, 00);
   width:100%;
 }
 
+.levitate {
+  border:1px solid rgb(00, 00, 00);
+}
+.profile-pic {
+  background-color: grey;
+  width:auto;
+  border:none;
+}
 input:focus {
    outline: none;
    border:1px solid rgb(155, 200, 238);
@@ -69,19 +84,31 @@ input:focus {
 
 input:invalid{
   background-color: rgb(255, 255, 255);
-
 }
+
+.res-sub input {
+  display: inline;
+  border-radius: 5px;
+  padding:2px;
+  background-color: lightblue;
+  width:auto;
+}
+
+
+/*
 input:valid {
   background-color: rgb(221, 255, 221);
 }
 
 select:invalid{
   background-color: rgb(255, 255, 255);
-
 }
+
 select:valid {
   background-color: rgb(221, 255, 221);
 }
+*/
+
 #number-levitate {
   width:3em;
 }

@@ -1,10 +1,3 @@
-
-
-
-
-
-
-
 <!DOCTYPE html>
 
 <html lang="en">
@@ -24,15 +17,15 @@
                     <legend>Basic Info</legend>
                         <aside>
                           <label for='fullname-input'><h4>Full Name</h4></label>
-                          <input type='text' name='fullname' id ='fullname-input' required="" placeholder='Leia Organa'>
+                          <input type='text' name='fullname' id ='fullname-input' required placeholder='Leia Organa'>
                         </aside>
                         <aside>
                             <label for='profile-upld'><h4>Profile Pic</h4></label>
-                            <input type="file" name="profile-upld" accept="image/*" required="">
+                            <input type="file" name="profile-upld" accept="image/*"  class="profile-pic" required>
                         </aside>
                         <aside>
                             <label for='email-input'><h4>Email</h4></label>
-                            <input type='email' name='email' id ='email-input' required="" placeholder='starprincess77@alderaan-online.net'>
+                            <input type='text' name='email' id ='email-input' required placeholder='starprincess77@alderaan-online.net'>
                         </aside>
                         <aside>
                             <h4>Side:</h4>
@@ -45,7 +38,7 @@
                         </aside>
                         <aside>
                         <label for='origins-txt'><h4>Origins Story</h4></label>
-                        <textarea name="origins-txt" rows="10" cols="67" required=""></textarea>
+                        <textarea name="origins-txt" rows="10" cols="67" required></textarea>
                         </aside>
                 </fieldset>
 
@@ -53,9 +46,9 @@
                     <legend>Abilites</legend>
                         <aside>
                               <label for='sbr-clr'><h4>Lightsaber Color</h4></label>
-                              <select name="sbr-clr" required="">
-                              <option value="select">Select Color</option>
-                              <option value="green" selected>Green</option>
+                              <select name="sbr-clr" required>
+                              <option value="select" selected disabled="">Select Color</option>
+                              <option value="green" >Green</option>
                               <option value="blue">Blue</option>
                               <option value="red">Red</option>
                               <option value="red">Purple</option>
@@ -63,11 +56,11 @@
                         </aside>
                         <aside>
                              <label for='levitate'><h4>How many objects can you levitate at once?</h4></label>
-                             <input type='number' name='number-obj' min='1' id='number-levitate' required="">
+                             <input type='number' name='number-obj' min='1' id='number-levitate' class="levitate" required>
                        </aside>
                        <aside>
                              <label for='fav-ability'><h4>Favorite ability</h4></label>
-                             <input type='text' name='fav-ability' id ='fav-ability'placeholder='precognition' required="">
+                             <input type='text' name='fav-ability' id ='fav-ability'placeholder='precognition' required>
                        </aside>
                        <aside>
                               <h4>Pilot Ability</h4>
@@ -103,32 +96,28 @@
                      <legend>Application Info</legend>
                         <aside>
                           <label for='mentor'><h4>Desired Mentor</h4></label>
-                            <input type='text' name='mentor' id ='des-mentor'placeholder="Yoda" required="">
+                            <input type='text' name='mentor' id ='des-mentor'placeholder="Yoda" required>
                         </aside>
                         <aside>
                           <label for='app-date'><h4>Application date</h4></label>
-                          <input type='date' name='date' id ='app-date' required="">
+                          <input type='date' name='date' id ='app-date' required>
                         </aside>
                         <aside>
                           <label for='password'><h4>Application Password</h4></label>
-                          <input type='text' name='pass' id ='password' required="">
+                          <input type='text' name='pass' id ='password' required>
                         </aside>
                         <aside>
                           <label for='dark-side'><h4>How do you get to the Dark Side</h4></label>
-                          <textarea name="dark-side" rows="10" cols="67" required=""></textarea>
+                          <textarea name="dark-side" rows="10" cols="67" requires></textarea>
                         </aside>
 
-                        <aside>
-                            <label>
-                               <button name="start-ovr-btn"id ='startover-btn' type ='reset'>Start Over</button>
-                                <!-- <button type = "reset" name="start-ovr-btn" id='startover-btn' value="Start Over">-->
-                            </label>
-                        </aside>
-                        <aside>
-                          <label>
-                                <button name="submit-btn"id ='submit-btn' type='submit'>Submit</button>
-                          </label>
-                        </aside>
+
+                      <aside class="res-sub">
+                       <input type='reset' name="start-ovr-btn" id ='startover-btn' value="Start Over"></input>
+                        <!-- <button name="start-ovr-btn"id ='startover-btn' type ='reset'>Start Over</button>-->
+                       <input type='submit' name="submit-btn" id ='submit-btn'></input>
+                       <aside>
+
 
                 </fieldset>
 
