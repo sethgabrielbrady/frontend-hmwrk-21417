@@ -1,133 +1,132 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang='en'>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Form Homework</title>
-        <link href='style.css' rel='stylesheet'>
-    </head>
+  <head>
+    <meta charset='utf-8'>
+    <title>Form Homework</title>
+    <link href='style.css' rel='stylesheet'>
+  </head>
 
-    <body>
-      <header>
-          <h1>Force User Signup Form</h1>
-      </header>
+  <body>
+    <header>
+      <h1>Force User Signup Form</h1>
+    </header>
 
-      <form action="http://requestb.in/14qg7en1" method='POST'>
-              <fieldset>
-                  <legend>Basic Info</legend>
-                      <aside>
-                        <label><h4>Full Name</h4></label>
-                        <input type='text' name='fullname' id ='fullname-input' required placeholder='Leia Organa'>
-                      </aside>
-                      <aside>
-                          <label for='profile-upld'><h4>Profile Pic</h4></label>
-                          <input type="file" name="profile-upld" accept="image/*"  id='profile-upld' class="profile-pic">
-                      </aside>
-                      <aside>
-                          <label for='email-input'><h4>Email</h4></label>
-                          <input type='text' name='email' id ='email-input' required placeholder='starprincess77@alderaan-online.net'>
-                      </aside>
-                      <aside>
-                          <h4>Side:</h4>
-                          <label class="check-rad"><input type ='radio' name='side' value='light'>
-                          </label>
-                          Light
-                          <label class="check-rad"><input type ='radio' name='side' value='dark'>
-                          </label>
-                          Dark
-                      </aside>
-                      <aside>
-                          <label for='origins-txt'><h4>Origins Story</h4></label>
-                          <textarea name="origins-txt" required></textarea>
-                      </aside>
-              </fieldset>
+    <form action='http://requestb.in/14qg7en1' method='POST'>
+        <fieldset>
+          <legend>Basic Info</legend>
+          <aside>
+            <label for ='fullname-input'>Full Name</label>
+            <input type='text' name='fullname' id ='fullname-input' required placeholder='Leia Organa'>
+          </aside>
+          <aside>
+            <label for='profile-upld'>Profile Pic</label>
+            <input type='file' name='profile-upld' accept='image/*'  id='profile-upld' class='profile-pic'>
+          </aside>
+          <aside>
+            <label for='email-input'>Email</label>
+            <input type='text' name='email' id ='email-input' required placeholder='starprincess77@alderaan-online.net'>
+          </aside>
+          <aside>
+            <legend>Side:</legend>
+            <label  for ='light' class='check-rad'><input type ='radio' name='side' id='light' value='light'>
+              Light
+            </label>
 
-              <fieldset>
-                  <legend>Abilites</legend>
-                      <aside>
-                            <label for='sbr-clr'><h4>Lightsaber Color</h4></label>
-                            <select name="sbr-clr" id='saber-color'>
-                            <option selected disabled>Select Color</option>
-                            <option value="green" >Green</option>
-                            <option value="blue">Blue</option>
-                            <option value="red">Red</option>
-                            <option value="red">Purple</option>
-                            </select>
-                      </aside>
-                      <aside>
-                           <label for='levitate'><h4>How many objects can you levitate at once?</h4></label>
-                           <input type='number' name='number-obj' min='1' id='number-levitate' class="levitate">
-                     </aside>
-                     <aside>
-                           <label for='fav-ability'><h4>Favorite ability</h4></label>
-                           <input type='text' name='fav-ability' id ='fav-ability'placeholder='precognition'>
-                     </aside>
-                     <aside>
-                            <h4>Pilot Ability</h4>
-                            <label class="check-rad" id="pilot-ability">
-                                  <input type ='checkbox' name='pilot' value='speeder'>
-                                    Speeder
-                            </label>
+            <label  for='dark' class='check-rad'><input type ='radio' name='side' id='dark' value='dark'>
+              Dark
+            </label>
+            </aside>
+          <aside>
+            <label for='origins-text'>Origins Story/label>
+            <textarea name='origins-txt' id ='origins-text'required></textarea>
+          </aside>
+        </fieldset>
 
-                            <label class="check-rad">
-                                  <input type ='checkbox' name='pilot' value='transport'>
-                                  Transport
-                            </label>
+        <fieldset>
+          <legend>Abilites</legend>
+          <aside>
+            <label for='saber-color'>Lightsaber Color</label>
+            <select name='sbr-clr' id='saber-color'>
+            <option selected disabled>Select Color</option>
+            <option value='green' >Green</option>
+            <option value='blue'>Blue</option>
+            <option value='red'>Red</option>
+            <option value='red'>Purple</option>
+            </select>
+          </aside>
+            <aside>
+             <label for='number-levitate'>How many objects can you levitate at once?</label>
+             <input type='number' name='number-obj' min='1' id='number-levitate' class='levitate'>
+           </aside>
+           <aside>
+             <label for='fav-ability'>Favorite ability</label>
+             <input type='text' name='fav-ability' id ='fav-ability'placeholder='precognition'>
+           </aside>
+           <aside>
+            <legend>Pilot Ability</legend>
+            <label  for='speeder' class='check-rad' >
+              <input type ='checkbox' name='pilot' id='speeder' value='speeder'>
+                Speeder
+            </label>
 
-                            <label class="check-rad">
-                                  <input type ='checkbox' name='pilot' value='xwing'>
-                                    X-Wing
-                            </label>
+            <label for='transport'  class='check-rad'>
+              <input type ='checkbox' name='pilot' id='transport' value='transport'>
+              Transport
+            </label>
 
-                            <label class="check-rad">
-                                  <input type ='checkbox' name='pilot' value='tiefighter'>
-                                  Tie Fighter
-                            </label>
+            <label for='xwing' class='check-rad'>
+              <input type ='checkbox' name='pilot'  id='xwing'value='xwing'>
+                X-Wing
+            </label>
 
-                            <label class="check-rad">
-                                  <input type ='checkbox' name='pilot' value='starship'>
-                                    Starship
-                            </label>
+            <label  for='tiefighter'class='check-rad'>
+              <input type ='checkbox' name='pilot' id='tiefighter' value='tiefighter'>
+              Tie Fighter
+            </label>
 
-                            <label class="check-rad">
-                                  <input type ='checkbox' name='pilot' value='bantha'>
-                                    Bantha
-                            </label>
+            <label for='starship' class='check-rad'>
+              <input type ='checkbox' name='pilot' id='starship' value='starship'>
+                Starship
+            </label>
 
-                      </aside>
+            <label for='bantha' class='check-rad'>
+              <input type ='checkbox' name='pilot' id='bantha' value='bantha'>
+                Bantha
+            </label>
+          </aside>
+        </fieldset>
 
-              </fieldset>
-
-              <fieldset>
-                   <legend>Application Info</legend>
-                      <aside>
-                        <label for='mentor'><h4>Desired Mentor</h4></label>
-                          <input type='text' name='mentor' id ='des-mentor'placeholder="Yoda" >
-                      </aside>
-                      <aside>
-                        <label for='app-date'><h4>Application date</h4></label>
-                        <input type='date' name='date' id ='app-date' required class='date'>
-                      </aside>
-                      <aside>
-                        <label for='password'><h4>Application Password</h4></label>
-                        <input type='password' name='pass' id ='password' class='password' required>
-                      </aside>
-                      <aside>
-                        <label for='dark-side'><h4>How do you get to the Dark Side</h4></label>
-                        <textarea name="dark-side" id="dark-side" ></textarea>
-                      </aside>
+        <fieldset>
+         <legend>Application Info</legend>
+          <aside>
+            <label for='mentor'>Desired Mentor</label>
+            <input type='text' name='mentor' id ='des-mentor'placeholder='Yoda' >
+          </aside>
+          <aside>
+            <label for='app-date'>Application date</label>
+            <input type='date' name='date' id ='app-date' required class='date'>
+          </aside>
+          <aside>
+            <label for='password'>Application Password</label>
+            <input type='password' name='pass' id ='password' class='password' required>
+          </aside>
+          <aside>
+            <label for='dark-side'>How do you get to the Dark Side</label>
+            <textarea name='dark-side' id='dark-side' ></textarea>
+          </aside>
 
 
-                     <aside class="res-sub">
-                       <input type='reset' name="start-ovr-btn" id ='startover-btn' value="Start Over"></input>
-                       <input type='submit' name="submit-btn" id ='submit-btn'></input>
-                     <aside>
-            </fieldset>
+          <aside class='res-sub'>
+           <input type='reset' name='start-ovr-btn' id ='startover-btn' value='Start Over'>
+           <input type='submit' name='submit-btn' id ='submit-btn'>
+         <aside>
+      </fieldset>
 
-          </form>
-        <footer>
-            <p>&copy; 2017 The Republic</p>
-        <footer>
-    </body>
+    </form>
+    <footer>
+        <p>&copy; 2017 The Republic</p>
+    <footer>
+  </body>
 </html>
